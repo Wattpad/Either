@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BCE005CC-3960-4B4E-A4D2-7D9F39844ACB</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4E8EC1E97A744AECB2BFFE9D3D48C062D250382B</key>
+		<string>https://github.com/dropbox/djinni</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4E8EC1E97A744AECB2BFFE9D3D48C062D250382B</key>
+		<string>djinni/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dropbox/djinni</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4E8EC1E97A744AECB2BFFE9D3D48C062D250382B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4E8EC1E97A744AECB2BFFE9D3D48C062D250382B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>djinni</string>
+		</dict>
+	</array>
+</dict>
+</plist>

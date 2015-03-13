@@ -1,0 +1,6 @@
+[submodule "djinni"]
+	path = djinni
+	url = https://github.com/Wattpad/djinni
+[submodule "ofxiOSBoost"]
+	path = ofxiOSBoost
+	url = https://github.com/danoli3/ofxiOSBoost.git

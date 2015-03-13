@@ -1,0 +1,22 @@
+Error = record {
+  domain: i32;
+  code: i32;
+  reason: string;
+}
+
+User = record {
+  id: i64;
+  name: string;
+}
+
+UserErrors = record {
+  const domain: i32 = -1;
+
+  const UserNotFound: i32 = -1;
+}
+
+UserService = interface +c {
+  static getService(): UserService;
+
+  getUser(id: i64): either<Error, User>;
+}

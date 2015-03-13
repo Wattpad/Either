@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA5704521AABA26400639AA5 /* WPUser.mm in Sources */ = {isa = PBXBuildFile; fileRef = EA57044C1AABA26400639AA5 /* WPUser.mm */; };
+		EA5704531AABA26400639AA5 /* WPUserServiceCppProxy.mm in Sources */ = {isa = PBXBuildFile; fileRef = EA5704501AABA26400639AA5 /* WPUserServiceCppProxy.mm */; };
+		EA5704561AABA47400639AA5 /* UserServiceImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA5704551AABA47400639AA5 /* UserServiceImpl.cpp */; };
+		EA5704591AABA48C00639AA5 /* UserErrors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA5704571AABA48C00639AA5 /* UserErrors.cpp */; };
+		EA57D66E1AAA5DBE00639AA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA57D66D1AAA5DBE00639AA5 /* main.m */; };
+		EA57D6711AAA5DBE00639AA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA57D6701AAA5DBE00639AA5 /* AppDelegate.m */; };
+		EA57D6741AAA5DBE00639AA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA57D6731AAA5DBE00639AA5 /* ViewController.m */; };
+		EA57D6771AAA5DBE00639AA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA57D6751AAA5DBE00639AA5 /* Main.storyboard */; };
+		EA57D6791AAA5DBE00639AA5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA57D6781AAA5DBE00639AA5 /* Images.xcassets */; };
+		EA57D67C1AAA5DBE00639AA5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA57D67A1AAA5DBE00639AA5 /* LaunchScreen.xib */; };
+		EA57D6881AAA5DBE00639AA5 /* EitherIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA57D6871AAA5DBE00639AA5 /* EitherIOSTests.m */; };
+		EA57D6BC1AAA5DF900639AA5 /* WPError.mm in Sources */ = {isa = PBXBuildFile; fileRef = EA57D6A91AAA5DF900639AA5 /* WPError.mm */; };
+		EA57D6E01AAA5E3100639AA5 /* WPEither.m in Sources */ = {isa = PBXBuildFile; fileRef = EA57D6D71AAA5E3100639AA5 /* WPEither.m */; };
+		EA57D6E11AAA5E3100639AA5 /* DJIError.mm in Sources */ = {isa = PBXBuildFile; fileRef = EA57D6D91AAA5E3100639AA5 /* DJIError.mm */; };
+		EA57D6E21AAA5E3100639AA5 /* DJIWeakPtrWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = EA57D6DC1AAA5E3100639AA5 /* DJIWeakPtrWrapper.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA57D6821AAA5DBE00639AA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA57D6601AAA5DBE00639AA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA57D6671AAA5DBE00639AA5;
+			remoteInfo = EitherIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA5704481AABA20B00639AA5 /* eithertest.djinni */ = {isa = PBXFileReference; lastKnownFileType = text; path = eithertest.djinni; sourceTree = "<group>"; };
+		EA5704491AABA25500639AA5 /* User.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = User.hpp; sourceTree = "<group>"; };
+		EA57044A1AABA25500639AA5 /* UserService.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = UserService.hpp; sourceTree = "<group>"; };
+		EA57044B1AABA26400639AA5 /* WPUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPUser.h; sourceTree = "<group>"; };
+		EA57044C1AABA26400639AA5 /* WPUser.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WPUser.mm; sourceTree = "<group>"; };
+		EA57044D1AABA26400639AA5 /* WPUser+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WPUser+Private.h"; sourceTree = "<group>"; };
+		EA57044E1AABA26400639AA5 /* WPUserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPUserService.h; sourceTree = "<group>"; };
+		EA57044F1AABA26400639AA5 /* WPUserServiceCppProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPUserServiceCppProxy.h; sourceTree = "<group>"; };
+		EA5704501AABA26400639AA5 /* WPUserServiceCppProxy.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WPUserServiceCppProxy.mm; sourceTree = "<group>"; };
+		EA5704511AABA26400639AA5 /* WPUserServiceCppProxy+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WPUserServiceCppProxy+Private.h"; sourceTree = "<group>"; };
+		EA5704551AABA47400639AA5 /* UserServiceImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UserServiceImpl.cpp; sourceTree = "<group>"; };
+		EA5704571AABA48C00639AA5 /* UserErrors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UserErrors.cpp; sourceTree = "<group>"; };
+		EA5704581AABA48C00639AA5 /* UserErrors.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = UserErrors.hpp; sourceTree = "<group>"; };
+		EA57D6681AAA5DBE00639AA5 /* EitherIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EitherIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA57D66C1AAA5DBE00639AA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA57D66D1AAA5DBE00639AA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA57D66F1AAA5DBE00639AA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA57D6701AAA5DBE00639AA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA57D6721AAA5DBE00639AA5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA57D6731AAA5DBE00639AA5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA57D6761AAA5DBE00639AA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA57D6781AAA5DBE00639AA5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA57D67B1AAA5DBE00639AA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EA57D6811AAA5DBE00639AA5 /* EitherIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EitherIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA57D6861AAA5DBE00639AA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA57D6871AAA5DBE00639AA5 /* EitherIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EitherIOSTests.m; sourceTree = "<group>"; };
+		EA57D6941AAA5DF900639AA5 /* Error.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Error.hpp; sourceTree = "<group>"; };
+		EA57D6A71AAA5DF900639AA5 /* WPError+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WPError+Private.h"; sourceTree = "<group>"; };
+		EA57D6A81AAA5DF900639AA5 /* WPError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPError.h; sourceTree = "<group>"; };
+		EA57D6A91AAA5DF900639AA5 /* WPError.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WPError.mm; sourceTree = "<group>"; };
+		EA57D6C21AAA5E3100639AA5 /* djinni_main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = djinni_main.cpp; sourceTree = "<group>"; };
+		EA57D6C31AAA5E3100639AA5 /* djinni_support.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = djinni_support.cpp; sourceTree = "<group>"; };
+		EA57D6C41AAA5E3100639AA5 /* djinni_support.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = djinni_support.hpp; sourceTree = "<group>"; };
+		EA57D6C51AAA5E3100639AA5 /* HBinary.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HBinary.hpp; sourceTree = "<group>"; };
+		EA57D6C61AAA5E3100639AA5 /* HBool.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HBool.hpp; sourceTree = "<group>"; };
+		EA57D6C71AAA5E3100639AA5 /* HEither.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HEither.hpp; sourceTree = "<group>"; };
+		EA57D6C81AAA5E3100639AA5 /* HF64.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HF64.hpp; sourceTree = "<group>"; };
+		EA57D6C91AAA5E3100639AA5 /* HI16.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HI16.hpp; sourceTree = "<group>"; };
+		EA57D6CA1AAA5E3100639AA5 /* HI32.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HI32.hpp; sourceTree = "<group>"; };
+		EA57D6CB1AAA5E3100639AA5 /* HI64.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HI64.hpp; sourceTree = "<group>"; };
+		EA57D6CC1AAA5E3100639AA5 /* HI8.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HI8.hpp; sourceTree = "<group>"; };
+		EA57D6CD1AAA5E3100639AA5 /* HIteJniInfo.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HIteJniInfo.hpp; sourceTree = "<group>"; };
+		EA57D6CE1AAA5E3100639AA5 /* HList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HList.hpp; sourceTree = "<group>"; };
+		EA57D6CF1AAA5E3100639AA5 /* HMap.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HMap.hpp; sourceTree = "<group>"; };
+		EA57D6D01AAA5E3100639AA5 /* HOptional.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HOptional.hpp; sourceTree = "<group>"; };
+		EA57D6D11AAA5E3100639AA5 /* HSet.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HSet.hpp; sourceTree = "<group>"; };
+		EA57D6D21AAA5E3100639AA5 /* HString.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HString.hpp; sourceTree = "<group>"; };
+		EA57D6D31AAA5E3100639AA5 /* Primitive.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Primitive.hpp; sourceTree = "<group>"; };
+		EA57D6D51AAA5E3100639AA5 /* DJICppWrapperCache+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DJICppWrapperCache+Private.h"; sourceTree = "<group>"; };
+		EA57D6D61AAA5E3100639AA5 /* WPEither.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPEither.h; sourceTree = "<group>"; };
+		EA57D6D71AAA5E3100639AA5 /* WPEither.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPEither.m; sourceTree = "<group>"; };
+		EA57D6D81AAA5E3100639AA5 /* DJIError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJIError.h; sourceTree = "<group>"; };
+		EA57D6D91AAA5E3100639AA5 /* DJIError.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DJIError.mm; sourceTree = "<group>"; };
+		EA57D6DA1AAA5E3100639AA5 /* DJIObjcWrapperCache+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DJIObjcWrapperCache+Private.h"; sourceTree = "<group>"; };
+		EA57D6DB1AAA5E3100639AA5 /* DJIWeakPtrWrapper+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DJIWeakPtrWrapper+Private.h"; sourceTree = "<group>"; };
+		EA57D6DC1AAA5E3100639AA5 /* DJIWeakPtrWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DJIWeakPtrWrapper.mm; sourceTree = "<group>"; };
+		EA57D6DD1AAA5E3100639AA5 /* support_lib.gyp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = support_lib.gyp; sourceTree = "<group>"; };
+		EA57D6E61AAA5EE000639AA5 /* either.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = either.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA57D6651AAA5DBE00639AA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA57D67E1AAA5DBE00639AA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA5704471AABA20B00639AA5 /* idl */ = {
+			isa = PBXGroup;
+			children = (
+				EA5704481AABA20B00639AA5 /* eithertest.djinni */,
+			);
+			path = idl;
+			sourceTree = "<group>";
+		};
+		EA5704541AABA47400639AA5 /* srcs */ = {
+			isa = PBXGroup;
+			children = (
+				EA5704551AABA47400639AA5 /* UserServiceImpl.cpp */,
+			);
+			path = srcs;
+			sourceTree = "<group>";
+		};
+		EA57D65F1AAA5DBE00639AA5 = {
+			isa = PBXGroup;
+			children = (
+				EA57D6E41AAA5E3700639AA5 /* Djinni */,
+				EA57D6911AAA5DCE00639AA5 /* Either */,
+				EA57D66A1AAA5DBE00639AA5 /* EitherIOS */,
+				EA57D6841AAA5DBE00639AA5 /* EitherIOSTests */,
+				EA57D6691AAA5DBE00639AA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA57D6691AAA5DBE00639AA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA57D6681AAA5DBE00639AA5 /* EitherIOS.app */,
+				EA57D6811AAA5DBE00639AA5 /* EitherIOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA57D66A1AAA5DBE00639AA5 /* EitherIOS */ = {
+			isa = PBXGroup;
+			children = (
+				EA57D66F1AAA5DBE00639AA5 /* AppDelegate.h */,
+				EA57D6701AAA5DBE00639AA5 /* AppDelegate.m */,
+				EA57D6721AAA5DBE00639AA5 /* ViewController.h */,
+				EA57D6731AAA5DBE00639AA5 /* ViewController.m */,
+				EA57D6751AAA5DBE00639AA5 /* Main.storyboard */,
+				EA57D6781AAA5DBE00639AA5 /* Images.xcassets */,
+				EA57D67A1AAA5DBE00639AA5 /* LaunchScreen.xib */,
+				EA57D66B1AAA5DBE00639AA5 /* Supporting Files */,
+			);
+			path = EitherIOS;
+			sourceTree = "<group>";
+		};
+		EA57D66B1AAA5DBE00639AA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA57D66C1AAA5DBE00639AA5 /* Info.plist */,
+				EA57D66D1AAA5DBE00639AA5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA57D6841AAA5DBE00639AA5 /* EitherIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA57D6871AAA5DBE00639AA5 /* EitherIOSTests.m */,
+				EA57D6851AAA5DBE00639AA5 /* Supporting Files */,
+			);
+			path = EitherIOSTests;
+			sourceTree = "<group>";
+		};
+		EA57D6851AAA5DBE00639AA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA57D6861AAA5DBE00639AA5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA57D6911AAA5DCE00639AA5 /* Either */ = {
+			isa = PBXGroup;
+			children = (
+				EA57D6921AAA5DF900639AA5 /* generated-srcs */,
+				EA5704471AABA20B00639AA5 /* idl */,
+				EA5704541AABA47400639AA5 /* srcs */,
+			);
+			name = Either;
+			path = ../Either;
+			sourceTree = "<group>";
+		};
+		EA57D6921AAA5DF900639AA5 /* generated-srcs */ = {
+			isa = PBXGroup;
+			children = (
+				EA57D6931AAA5DF900639AA5 /* cpp */,
+				EA57D6A61AAA5DF900639AA5 /* objc */,
+			);
+			path = "generated-srcs";
+			sourceTree = "<group>";
+		};
+		EA57D6931AAA5DF900639AA5 /* cpp */ = {
+			isa = PBXGroup;
+			children = (
+				EA57D6941AAA5DF900639AA5 /* Error.hpp */,
+				EA5704491AABA25500639AA5 /* User.hpp */,
+				EA5704571AABA48C00639AA5 /* UserErrors.cpp */,
+				EA5704581AABA48C00639AA5 /* UserErrors.hpp */,
+				EA57044A1AABA25500639AA5 /* UserService.hpp */,
+			);
+			path = cpp;
+			sourceTree = "<group>";
+		};
+		EA57D6A61AAA5DF900639AA5 /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				EA57D6A71AAA5DF900639AA5 /* WPError+Private.h */,
+				EA57D6A81AAA5DF900639AA5 /* WPError.h */,
+				EA57D6A91AAA5DF900639AA5 /* WPError.mm */,
+				EA57044B1AABA26400639AA5 /* WPUser.h */,
+				EA57044C1AABA26400639AA5 /* WPUser.mm */,
+				EA57044D1AABA26400639AA5 /* WPUser+Private.h */,
+				EA57044E1AABA26400639AA5 /* WPUserService.h */,
+				EA57044F1AABA26400639AA5 /* WPUserServiceCppProxy.h */,
+				EA5704501AABA26400639AA5 /* WPUserServiceCppProxy.mm */,
+				EA5704511AABA26400639AA5 /* WPUserServiceCppProxy+Private.h */,
+			);
+			path = objc;
+			sourceTree = "<group>";
+		};
+		EA57D6C01AAA5E3100639AA5 /* support-lib */ = {
+			isa = PBXGroup;
+			children = (
+				EA57D6E51AAA5EE000639AA5 /* cpp */,
+				EA57D6C11AAA5E3100639AA5 /* jni */,
+				EA57D6D41AAA5E3100639AA5 /* objc */,
+				EA57D6DD1AAA5E3100639AA5 /* support_lib.gyp */,
+			);
+			path = "support-lib";
+			sourceTree = "<group>";
+		};
+		EA57D6C11AAA5E3100639AA5 /* jni */ = {
+			isa = PBXGroup;
+			children = (
+				EA57D6C21AAA5E3100639AA5 /* djinni_main.cpp */,
+				EA57D6C31AAA5E3100639AA5 /* djinni_support.cpp */,
+				EA57D6C41AAA5E3100639AA5 /* djinni_support.hpp */,
+				EA57D6C51AAA5E3100639AA5 /* HBinary.hpp */,
+				EA57D6C61AAA5E3100639AA5 /* HBool.hpp */,
+				EA57D6C71AAA5E3100639AA5 /* HEither.hpp */,
+				EA57D6C81AAA5E3100639AA5 /* HF64.hpp */,
+				EA57D6C91AAA5E3100639AA5 /* HI16.hpp */,
+				EA57D6CA1AAA5E3100639AA5 /* HI32.hpp */,
+				EA57D6CB1AAA5E3100639AA5 /* HI64.hpp */,
+				EA57D6CC1AAA5E3100639AA5 /* HI8.hpp */,
+				EA57D6CD1AAA5E3100639AA5 /* HIteJniInfo.hpp */,
+				EA57D6CE1AAA5E3100639AA5 /* HList.hpp */,
+				EA57D6CF1AAA5E3100639AA5 /* HMap.hpp */,
+				EA57D6D01AAA5E3100639AA5 /* HOptional.hpp */,
+				EA57D6D11AAA5E3100639AA5 /* HSet.hpp */,
+				EA57D6D21AAA5E3100639AA5 /* HString.hpp */,
+				EA57D6D31AAA5E3100639AA5 /* Primitive.hpp */,
+			);
+			path = jni;
+			sourceTree = "<group>";
+		};
+		EA57D6D41AAA5E3100639AA5 /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				EA57D6D51AAA5E3100639AA5 /* DJICppWrapperCache+Private.h */,
+				EA57D6D81AAA5E3100639AA5 /* DJIError.h */,
+				EA57D6D91AAA5E3100639AA5 /* DJIError.mm */,
+				EA57D6DA1AAA5E3100639AA5 /* DJIObjcWrapperCache+Private.h */,
+				EA57D6DB1AAA5E3100639AA5 /* DJIWeakPtrWrapper+Private.h */,
+				EA57D6DC1AAA5E3100639AA5 /* DJIWeakPtrWrapper.mm */,
+				EA57D6D61AAA5E3100639AA5 /* WPEither.h */,
+				EA57D6D71AAA5E3100639AA5 /* WPEither.m */,
+			);
+			path = objc;
+			sourceTree = "<group>";
+		};
+		EA57D6E41AAA5E3700639AA5 /* Djinni */ = {
+			isa = PBXGroup;
+			children = (
+				EA57D6C01AAA5E3100639AA5 /* support-lib */,
+			);
+			name = Djinni;
+			path = ../djinni;
+			sourceTree = "<group>";
+		};
+		EA57D6E51AAA5EE000639AA5 /* cpp */ = {
+			isa = PBXGroup;
+			children = (
+				EA57D6E61AAA5EE000639AA5 /* either.hpp */,
+			);
+			path = cpp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA57D6671AAA5DBE00639AA5 /* EitherIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA57D68B1AAA5DBE00639AA5 /* Build configuration list for PBXNativeTarget "EitherIOS" */;
+			buildPhases = (
+				EA57D6641AAA5DBE00639AA5 /* Sources */,
+				EA57D6651AAA5DBE00639AA5 /* Frameworks */,
+				EA57D6661AAA5DBE00639AA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EitherIOS;
+			productName = EitherIOS;
+			productReference = EA57D6681AAA5DBE00639AA5 /* EitherIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA57D6801AAA5DBE00639AA5 /* EitherIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA57D68E1AAA5DBE00639AA5 /* Build configuration list for PBXNativeTarget "EitherIOSTests" */;
+			buildPhases = (
+				EA57D67D1AAA5DBE00639AA5 /* Sources */,
+				EA57D67E1AAA5DBE00639AA5 /* Frameworks */,
+				EA57D67F1AAA5DBE00639AA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA57D6831AAA5DBE00639AA5 /* PBXTargetDependency */,
+			);
+			name = EitherIOSTests;
+			productName = EitherIOSTests;
+			productReference = EA57D6811AAA5DBE00639AA5 /* EitherIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA57D6601AAA5DBE00639AA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Wattpad;
+				TargetAttributes = {
+					EA57D6671AAA5DBE00639AA5 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					EA57D6801AAA5DBE00639AA5 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = EA57D6671AAA5DBE00639AA5;
+					};
+				};
+			};
+			buildConfigurationList = EA57D6631AAA5DBE00639AA5 /* Build configuration list for PBXProject "EitherIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA57D65F1AAA5DBE00639AA5;
+			productRefGroup = EA57D6691AAA5DBE00639AA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA57D6671AAA5DBE00639AA5 /* EitherIOS */,
+				EA57D6801AAA5DBE00639AA5 /* EitherIOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA57D6661AAA5DBE00639AA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA57D6771AAA5DBE00639AA5 /* Main.storyboard in Resources */,
+				EA57D67C1AAA5DBE00639AA5 /* LaunchScreen.xib in Resources */,
+				EA57D6791AAA5DBE00639AA5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA57D67F1AAA5DBE00639AA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA57D6641AAA5DBE00639AA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA57D6E11AAA5E3100639AA5 /* DJIError.mm in Sources */,
+				EA57D6741AAA5DBE00639AA5 /* ViewController.m in Sources */,
+				EA57D6BC1AAA5DF900639AA5 /* WPError.mm in Sources */,
+				EA57D6711AAA5DBE00639AA5 /* AppDelegate.m in Sources */,
+				EA57D6E01AAA5E3100639AA5 /* WPEither.m in Sources */,
+				EA57D6E21AAA5E3100639AA5 /* DJIWeakPtrWrapper.mm in Sources */,
+				EA5704561AABA47400639AA5 /* UserServiceImpl.cpp in Sources */,
+				EA5704531AABA26400639AA5 /* WPUserServiceCppProxy.mm in Sources */,
+				EA57D66E1AAA5DBE00639AA5 /* main.m in Sources */,
+				EA5704591AABA48C00639AA5 /* UserErrors.cpp in Sources */,
+				EA5704521AABA26400639AA5 /* WPUser.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA57D67D1AAA5DBE00639AA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA57D6881AAA5DBE00639AA5 /* EitherIOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA57D6831AAA5DBE00639AA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA57D6671AAA5DBE00639AA5 /* EitherIOS */;
+			targetProxy = EA57D6821AAA5DBE00639AA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA57D6751AAA5DBE00639AA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA57D6761AAA5DBE00639AA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA57D67A1AAA5DBE00639AA5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA57D67B1AAA5DBE00639AA5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA57D6891AAA5DBE00639AA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../ofxiOSBoost/libs/boost/include",
+					"$(SRCROOT)/../djinni/support-lib/cpp",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../ofxiOSBoost/libs/boost/ios";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../EitherTest/generated-srcs/cpp $(SRCROOT)/../EitherTest/generated-srcs/objc";
+			};
+			name = Debug;
+		};
+		EA57D68A1AAA5DBE00639AA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../ofxiOSBoost/libs/boost/include",
+					"$(SRCROOT)/../djinni/support-lib/cpp",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../ofxiOSBoost/libs/boost/ios";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../EitherTest/generated-srcs/cpp $(SRCROOT)/../EitherTest/generated-srcs/objc";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA57D68C1AAA5DBE00639AA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EitherIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA57D68D1AAA5DBE00639AA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EitherIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA57D68F1AAA5DBE00639AA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EitherIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EitherIOS.app/EitherIOS";
+			};
+			name = Debug;
+		};
+		EA57D6901AAA5DBE00639AA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EitherIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EitherIOS.app/EitherIOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA57D6631AAA5DBE00639AA5 /* Build configuration list for PBXProject "EitherIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA57D6891AAA5DBE00639AA5 /* Debug */,
+				EA57D68A1AAA5DBE00639AA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA57D68B1AAA5DBE00639AA5 /* Build configuration list for PBXNativeTarget "EitherIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA57D68C1AAA5DBE00639AA5 /* Debug */,
+				EA57D68D1AAA5DBE00639AA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA57D68E1AAA5DBE00639AA5 /* Build configuration list for PBXNativeTarget "EitherIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA57D68F1AAA5DBE00639AA5 /* Debug */,
+				EA57D6901AAA5DBE00639AA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA57D6601AAA5DBE00639AA5 /* Project object */;
+}
