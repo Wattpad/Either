@@ -7,9 +7,6 @@ import android.view.MenuItem;
 import com.wattpad.api.*;
 import com.wattpad.util.Either;
 
-import java.lang.reflect.Method;
-import java.util.Vector;
-
 public class MainActivity extends ActionBarActivity {
 
     static {

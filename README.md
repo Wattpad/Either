@@ -38,3 +38,10 @@ local.properties file. Here is mine exactly as it appears, for reference:
     # header note.
     sdk.dir=/Users/tony/Library/Android/sdk
     ndk.dir=/Users/tony/Library/Android/ndk
+
+## What to Expect
+
+The Android and iOS apps don't do anything visible, but you can set a breakpoint
+in `MainActivity.onCreate` (Android) and `ViewController -viewDidLoad` (iOS) to
+see the result of calling into a common C++ component using Djinni and getting
+back an Either result type.
