@@ -1,8 +1,7 @@
 # Either and Djinni
 
 This is a proof of concept demonstrating the use of an Either type in
-cross-platform code for Android and iOS using Djinni. Before you can build the
-Android and iOS projects, you need to run `make` in the `Either` directory.
+cross-platform code for Android and iOS using Djinni.
 
 ## Requirements
 
@@ -12,6 +11,16 @@ To build for Android and iOS, the following are recommended:
 * [Android NDK](https://developer.android.com/tools/sdk/ndk/index.html)
 * [Xcode 6.x](https://developer.apple.com/xcode/)
 * [Boost](http://www.boost.org/)
+
+## Generating Sources from Djinni
+
+Before you can build the Android and iOS projects, you need to run
+`git submodule init` and `git submodule update` in the root directory, then
+run `make all` in the `Either` directory.
+
+If you don't want to download all of Boost pre-compiled for iOS, you can just
+grab the subdirectory `ofxiOSBoost/libs/boost/include/boost/optional` for the
+ofxiOSBoost submodule.
 
 ## Configuring the Android Project
 
