@@ -6,31 +6,47 @@
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>BCE005CC-3960-4B4E-A4D2-7D9F39844ACB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>EitherIOS</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>4E8EC1E97A744AECB2BFFE9D3D48C062D250382B</key>
-		<string>https://github.com/dropbox/djinni</string>
+		<string>https://github.com/Wattpad/djinni</string>
+		<key>E10DE4AE541B08141E0DF1D97AE28175F9E2F379</key>
+		<string>https://github.com/Wattpad/Either.git</string>
 	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EitherIOS/EitherIOS.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>4E8EC1E97A744AECB2BFFE9D3D48C062D250382B</key>
-		<string>djinni/</string>
+		<string>../../..djinni</string>
+		<key>E10DE4AE541B08141E0DF1D97AE28175F9E2F379</key>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/dropbox/djinni</string>
+	<string>https://github.com/Wattpad/Either.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>4E8EC1E97A744AECB2BFFE9D3D48C062D250382B</string>
+	<string>E10DE4AE541B08141E0DF1D97AE28175F9E2F379</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E10DE4AE541B08141E0DF1D97AE28175F9E2F379</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Either</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>4E8EC1E97A744AECB2BFFE9D3D48C062D250382B</string>
 			<key>IDESourceControlWCCName</key>
-			<string>djinni</string>
+			<string>Eitherdjinni</string>
 		</dict>
 	</array>
 </dict>
